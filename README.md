@@ -6,9 +6,9 @@ This app will make it just a little more fun to get things done, by offering a t
 I will build this app using test-driven development.
 
 ### Technologies To Be Involved
-Node.js/Express: Backend
-AngularJS: Frontend
-D3.js: Visuals
-MongoDB: Database for storing users
-Jasmine: Testing
-Passport: Authentication
+- Node.js/Express: Backend
+- AngularJS: Frontend
+- D3.js: Visuals
+- MongoDB: Database for storing users
+- Jasmine: Testing
+- Passport: Authentication
