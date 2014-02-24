@@ -1,9 +1,13 @@
 {
-  "name": "Triumphant Tasks",
+  "name": "triumphant-tasks",
   "version": "0.0.1",
   "description": "Track user's tasks and celebrate successes",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
-    "express": "~3.4.8"
+    "express": "~3.4.8",
+    "jade": "*"
   },
   "repository": {
     "type": "git",

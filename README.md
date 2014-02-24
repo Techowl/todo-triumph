@@ -7,9 +7,10 @@ I will build this app using test-driven development, with a mobile-first mindset
 
 ### Technologies To Be Involved
 - Node.js/Express: Backend
-- AngularJS: Frontend
-- D3.js: Visuals
-- MongoDB: Database for storing users
+- Jade: Templating
+- Zurb Foundation: Mobile-first Frontend
 - Jasmine: Testing
+- AngularJS: Frontend
+- MongoDB: Database for storing users
 - Passport: Authentication
-- ZURB Foundation: Mobile-first Frontend
+- D3.js: Visuals

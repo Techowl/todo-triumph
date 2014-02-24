@@ -1,0 +1,9 @@
+doctype html
+html
+  head
+    title= 'Triumphant Tasks'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    -each s in scripts
+      script(type='text/javascript', src = s)
+  body
+    block content
