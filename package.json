@@ -9,6 +9,12 @@
     "express": "~3.4.8",
     "jade": "*"
   },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Techowl/todo-triumph"
