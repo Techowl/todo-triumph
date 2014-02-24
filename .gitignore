@@ -3,3 +3,4 @@ node_modules
 
 # Bower Components
 bower_components
+public/bower_components
