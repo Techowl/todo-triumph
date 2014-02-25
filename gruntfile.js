@@ -76,7 +76,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-vows-runner');
 
   grunt.registerTask('build', ['sass']);
-  grunt.registerTask('test', ['jshint', 'jasmine']);
+  grunt.registerTask('test', ['jshint', 'jasmine', 'vows']);
   grunt.registerTask('default', ['build', 'uglify', 'test']);
 
 };
