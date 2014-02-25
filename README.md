@@ -12,8 +12,10 @@ I will build this app using test-driven development, with a mobile-first mindset
 - Grunt: Taskrunner
 - ZURB Foundation: Mobile-first frontend
 - SCSS: Styling
-- Jasmine: Testing
+- Jasmine (2.0): Client-side testing
+- Vows: Server-side testing
 - AngularJS: Frontend
 - MongoDB: Database for storing users
 - Passport: Authentication
 - D3.js: Visuals
+- JSHint: Confirming use of best practices
