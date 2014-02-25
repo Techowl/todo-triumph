@@ -77,6 +77,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['sass']);
   grunt.registerTask('test', ['jshint', 'jasmine']);
-  grunt.registerTask('default', ['build', 'watch', 'uglify', 'test']);
+  grunt.registerTask('default', ['build', 'uglify', 'test']);
 
 };
