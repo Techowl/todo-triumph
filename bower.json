@@ -5,7 +5,7 @@
     "angular": "latest",
     "angular-cookies": "latest",
     "angular-route": "latest",
-    "foundation": "latest",
+    "foundation": "zurb/bower-foundation",
     "jquery": "latest",
     "font-awesome": "latest"
   }
