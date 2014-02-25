@@ -8,3 +8,6 @@ public/bower_components
 # Grunt/Testing Artifacts
 .grunt/
 _SpecRunner.html
+
+# Compiled CSS
+public/stylesheets/app.css
