@@ -1,7 +1,8 @@
 module.exports = function(grunt) {
 
+  "use strict";
+
   grunt.initConfig({
-    "use strict";
 
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
