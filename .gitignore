@@ -11,6 +11,3 @@ _SpecRunner.html
 
 # Compiled CSS
 public/stylesheets/app.css
-
-# SCSS Settings
-scss/_settings.scss
