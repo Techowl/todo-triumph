@@ -6,17 +6,17 @@ This app will make it just a little more fun to get things done, by offering a t
 I will build this app using test-driven development, with a mobile-first mindset.
 
 ### Technologies To Be Involved
-*Italicized items are technologies that I am using for the first time as part of this project.*
+Bolded items are technologies that I am learning for the first time as part of this project.
 - Node.js/Express: Backend
-- *Jade: Templating*
-- *Bower: Managing client-side packages*
-- *Grunt: Taskrunner*
-- *ZURB Foundation: Mobile-first frontend*
-- *SCSS: Styling*
+- **Jade: Templating**
+- **Bower: Managing client-side packages**
+- **Grunt: Taskrunner**
+- **ZURB Foundation: Mobile-first frontend**
+- **SCSS: Styling**
 - Jasmine (2.0): Client-side testing
-- *Vows: Server-side testing*
-- *AngularJS: Frontend*
-- *MongoDB: Database for storing users*
-- *Passport: Authentication*
-- *D3.js: Visuals*
-- *JSHint: Confirming use of best practices*
+- **Vows: Server-side testing**
+- **JSHint: Confirming use of best practices**
+- **AngularJS: Frontend**
+- **MongoDB: Database for storing users**
+- **Passport: Authentication**
+- **D3.js: Visuals**

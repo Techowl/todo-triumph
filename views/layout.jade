@@ -5,9 +5,10 @@ html
     meta(charset='utf-8')
     meta(name='viewport' content="width=device-width, initial-scale=1.0")
     link(rel='stylesheet', href='/bower_components/foundation/scss/normalize.scss')
-    link(rel='stylesheet', href='/bower_components/foundation/scss/foundation.scss')
     link(rel='stylesheet', href='/stylesheets/app.css')
-    -each s in scripts
+    -each s in scriptsHead
       script(type='text/javascript', src = s)
   body
     block content
+    -each s in scriptsBody
+      script(type='text/javascript', src = s)
