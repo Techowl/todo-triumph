@@ -30,12 +30,36 @@ module.exports = function(grunt) {
       }
     },
 
+    express: {
+      options: {
+        port: 1337
+      },
+
+      dev: {
+        options: {
+          script: 'app.js'
+        }
+      }
+    },
+
     watch: {
-      grunt: { files: ['Gruntfile.js'] },
+      options: {
+        livereload: true
+      },
+
+      grunt: { files: ['gruntfile.js'] },
 
       sass: {
         files: 'scss/**/*.scss',
         tasks: ['sass']
+      },
+
+      express: {
+        files:  [ 'app.js' ],
+        tasks:  [ 'express:dev' ],
+        options: {
+          spawn: false
+        }
       }
     },
 
@@ -72,10 +96,12 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-express-server');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-vows-runner');
 
   grunt.registerTask('build', ['sass']);
+  grunt.registerTask('server', ['express:dev', 'watch'])
   grunt.registerTask('test', ['jshint', 'jasmine', 'vows']);
   grunt.registerTask('default', ['build', 'uglify', 'test']);
 
