@@ -54,6 +54,10 @@ module.exports = function(grunt) {
         tasks: ['sass']
       },
 
+      markup: {
+        files: 'views/**/*.jade'
+      },
+
       express: {
         files:  [ 'app.js' ],
         tasks:  [ 'express:dev' ],
