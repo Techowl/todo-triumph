@@ -15,8 +15,7 @@ Bolded items are technologies that I am learning for the first time as part of t
 - **Grunt: Taskrunner**
 - **ZURB Foundation: Mobile-first frontend**
 - **SCSS: Styling**
-- Jasmine (2.0): Client-side testing
-- **Vows: Server-side testing**
+- **Intern: JavaScript testing**
 - **JSHint: Confirming use of best practices**
 - **AngularJS: Frontend**
 - **MongoDB: Database for storing users**

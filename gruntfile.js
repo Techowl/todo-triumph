@@ -76,23 +76,6 @@ module.exports = function(grunt) {
       options: {
         jshintrc: '.jshintrc'
       }
-    },
-
-    jasmine: {
-      src: 'javascripts/client/**/*.js',
-      options: {
-        specs: 'spec/*Spec.js',
-        helpers: 'spec/*Helper.js'
-      }
-    },
-
-    vows : {
-      all : {
-        src : "spec/server/**/*.js",
-        options : {
-          reporter : "spec"
-        }
-      }
     }
   });
 
