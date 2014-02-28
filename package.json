@@ -16,11 +16,12 @@
     "node-sass": "~0.7.0",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-sass": "~0.8.0",
-    "grunt-express-server": "~0.4.13"
+    "grunt-express-server": "~0.4.13",
+    "intern": "~1.4.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Techowl/todo-triumph"
+    "url": "https://github.com/Techowl/todo-triumph.git"
   },
   "engines": {
     "node": "~0.10.25"

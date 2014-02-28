@@ -67,6 +67,14 @@ module.exports = function(grunt) {
       }
     },
 
+    intern: {
+      client: {
+        options: {
+          config: 'tests/intern'
+        }
+      }
+    },
+
     jshint: {
       all: [
         'gruntfile.js',
@@ -80,16 +88,15 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-jasmine');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-express-server');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-vows-runner');
+  grunt.loadNpmTasks('intern');
 
   grunt.registerTask('build', ['sass']);
   grunt.registerTask('server', ['express:dev', 'watch'])
-  grunt.registerTask('test', ['jshint', 'jasmine', 'vows']);
+  grunt.registerTask('test', ['jshint', 'intern:client']);
   grunt.registerTask('default', ['build', 'uglify', 'test']);
 
 };
